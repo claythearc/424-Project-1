@@ -1,5 +1,3 @@
-import re
-
 def lex(identifier: str, symbols: dict,linenum: int) -> tuple:
     keywords = [
         'char',
